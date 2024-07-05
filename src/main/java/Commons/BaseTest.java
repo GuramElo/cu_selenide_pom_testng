@@ -21,7 +21,7 @@ public class BaseTest {
     }
 
     @BeforeSuite
-    public void sulsulBolo() {
+    public void firstOne() {
         DriverManager.getInstance().closeDriver();
     }
 

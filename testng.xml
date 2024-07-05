@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/gurik/Desktop/CU_Testing/guram_pom/src/main/resources"><classes/></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/gurik/Desktop/CU_Testing/guram_pom/src/main/java/Tests/SignInTest.java">
+        <classes>
+            <class name="Tests.SignInTest">
+                <methods>
+                    <include name="positiveLogin"/>
+                    <include name="NegativeLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/gurik/Desktop/CU_Testing/guram_pom/src/main/java/Tests/AddToCartTest.java">
+        <classes>
+            <class name="Tests.AddToCartTest">
+                <methods>
+                    <include name="addRandomMonitorToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
